@@ -1,0 +1,19 @@
+{
+    "SECURITY_MODE": "STANDARD",
+    "AES_CCM_KEY": "12345678901234561234567890123456",
+    "HMAC_KEY": "shared-hmac-secret-key-device-cloud",
+    "JWT_SECRET": "super-secure-jwt-secret-key-for-cloud-server",
+    "DEVICE": {
+        "PATIENT_ID": "PATIENT-9981",
+        "DEVICE_ID": "BAND-v2-X90",
+        "SERVER_PORT": 8081
+        },
+    "CLOUD": {
+        "SERVER_PORT": 8080,
+        "DOCTOR_CREDENTIALS": {
+            "username": "dr_smith",
+            "password": "securepassword123",
+            "role": "doctor"
+        }
+    }
+}
